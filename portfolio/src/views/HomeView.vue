@@ -1,18 +1,44 @@
+<!-- eslint-disable prettier/prettier -->
+
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
+  <div class="container">
+      <div class="row">
+        <h2>
+          Welcome to my portfolio! <br>
+          I am Ulises Mariano Melgarejo
+        </h2>
+      </div>  
+      <div class="row row-cols-2">
+        <div class="col colors"><router-link to="/about" ><h3>About me</h3></router-link></div>
+        <div class="col colors"><router-link to="/education" ><h3>My education</h3></router-link></div>
+        <div class="col colors"><router-link to="/projects" ><h3>My projects</h3></router-link></div>
+        <div class="col colors"><router-link to="/" ><h3>Contact me</h3></router-link></div>
+    </div>
   </div>
 </template>
-
-<script lang="ts">
-import { Options, Vue } from "vue-class-component";
-import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
-
-@Options({
-  components: {
-    HelloWorld,
-  },
-})
-export default class HomeView extends Vue {}
-</script>
+<style>
+html {
+  max-height: fit-content;
+}
+.colors {
+  padding: 8rem;
+  border: 2px solid black;
+  cursor: pointer;
+}
+.colors:nth-child(1) {
+  background-color: #59cd90;
+}
+.colors:nth-child(2) {
+  background-color: #3fa7d6;
+}
+.colors:nth-child(3) {
+  background-color: #fac05e;
+}
+.colors:nth-child(4) {
+  background-color: #f79d84;
+}
+.colors:hover {
+  background-color: #d8bfb8;
+  border: 5px solid black;
+}
+</style>

@@ -1,0 +1,125 @@
+<!-- eslint-disable prettier/prettier -->
+<!-- eslint-disable prettier/prettier -->
+
+<template>
+<div class="timeline">
+  <div class="timeline__component">
+    <div class="timeline__date timeline__date--right">August 30, 2017</div>
+  </div>
+  <div class="timeline__middle">
+    <div class="timeline__point"></div>
+  </div>
+  <div class="timeline__component timeline__component--bg">
+    <h2 class="timeline__title">Pdssdfsdfo</h2>
+    <p class="timeline__paragraph">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, nostrum, ad dignissimos </p>
+  </div>
+  <div class="timeline__component timeline__component--bg">
+    <h2 class="timeline__title">dfdsfs</h2>
+    <p class="timeline__paragraph">
+        harum laboriosam qui accusamus officia sit maiores sequi fuga aut temporibus culpa necessitatibus quod repellendus eos omnis veritatis.
+    </p>
+  </div>
+  <div class="timeline__middle">
+    <div class="timeline__point"></div>
+  </div>
+  <div class="timeline__component">
+    <div class="timeline__date">February 25, 2019</div>
+  </div>
+  <div class="timeline__component">
+    <div class="timeline__date timeline__date--right">June 3, 2020</div>
+  </div>
+  <div class="timeline__middle">
+    <div class="timeline__point"></div>
+  </div>
+  <div class="timeline__component timeline__component--bg">
+    <h2 class="timeline__title">sdfdsdfsdf</h2>
+    <p class="timeline__paragraph">
+        harum laboriosam qui accusamus officia sit maiores sequi fuga aut temporibus culpa necessitatibus quod repellendus eos omnis veritatis.
+    </p>
+  </div>
+  <div class="timeline__component timeline__component--bottom timeline__component--bg">
+    <h2 class="timeline__title">Vertical Timeline</h2>
+    <p class="timeline__paragraph">
+      sdfsdfsdfdsfsdf
+    </p>
+    <p class="timeline__paragraph">
+        harum laboriosam qui accusamus officia sit maiores sequi fuga aut temporibus culpa necessitatibus quod repellendus eos omnis veritatis.
+    </p>
+  </div>
+  <div class="timeline__middle">
+    <div class="timeline__point"></div>
+    <div class="timeline__point timeline__point--bottom"></div>
+  </div>
+  <div class="timeline__component timeline__component--bottom">
+    <div class="timeline__date">June 28, 2021</div>
+  </div>
+</div>
+</template>
+<style>
+body {
+  background: #009578;
+}
+
+.timeline {
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 3px 1fr;
+  font-family: "Fira Sans", sans-serif;
+  color: #ffffff;
+}
+
+.timeline__component {
+  margin: 0 20px 20px 20px;
+}
+
+.timeline__component--bg {
+  padding: 1.5em;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* LEAVE TILL LAST */
+.timeline__component--bottom {
+  margin-bottom: 0;
+}
+
+.timeline__middle {
+  position: relative;
+  background: #ffffff;
+}
+
+.timeline__point {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 15px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+/* LEAVE TILL LAST */
+.timeline__point--bottom {
+  top: initial;
+  bottom: 0;
+}
+
+.timeline__date--right {
+  text-align: right;
+}
+
+.timeline__title {
+  margin: 0;
+  font-size: 1.15em;
+  font-weight: bold;
+}
+
+.timeline__paragraph {
+  line-height: 1.5;
+}
+</style>
