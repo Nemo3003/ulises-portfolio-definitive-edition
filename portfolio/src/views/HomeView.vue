@@ -2,19 +2,21 @@
 
 <template>
   <div class="container">
-      <div class="row">
+      <div class="row ">
         <h2>
           Welcome to my portfolio! <br>
           I am Ulises Mariano Melgarejo
         </h2>
-      </div>  
-      <div class="row row-cols-2">
-        <div class="col colors"><router-link to="/about" ><h3>About me</h3></router-link></div>
-        <div class="col colors"><router-link to="/education" ><h3>My education</h3></router-link></div>
-        <div class="col colors"><router-link to="/projects" ><h3>My projects</h3></router-link></div>
-        <div class="col colors"><router-link to="/" ><h3>Contact me</h3></router-link></div>
-    </div>
-  </div>
+      </div>
+
+        <div class="row row-cols-2 d-flex justify-content-center align-items-center text-center">
+          <div class="col colors "><router-link to="/about" ><h3>About me</h3></router-link></div>
+          <div class="col colors"><router-link to="/education" ><h3>My education</h3></router-link></div>
+          <div class="col colors"><router-link to="/projects" ><h3>My projects</h3></router-link></div>
+          <div class="col colors"><router-link to="/" ><h3>Contact me</h3></router-link></div>
+        </div>
+      </div>
+ 
 </template>
 <style>
 html {
@@ -40,5 +42,20 @@ html {
 .colors:hover {
   background-color: #d8bfb8;
   border: 5px solid black;
+}
+
+@media (max-width: 768px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 </style>
