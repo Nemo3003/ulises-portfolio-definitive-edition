@@ -5,6 +5,7 @@
     <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
+      <h2>First</h2>
       <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
     </div>
     <div class="flip-card-back">
@@ -17,6 +18,7 @@
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
+      <h2>Second</h2>
       <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
     </div>
     <div class="flip-card-back">
@@ -29,6 +31,7 @@
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
+      <h2>Default</h2>
       <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
     </div>
     <div class="flip-card-back">
@@ -41,6 +44,7 @@
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
+      <h2>Default</h2>
       <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
     </div>
     <div class="flip-card-back">
@@ -53,6 +57,7 @@
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
+      <h2>Default</h2>
       <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
     </div>
     <div class="flip-card-back">
@@ -65,6 +70,7 @@
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
+      <h2>Default</h2>
       <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
     </div>
     <div class="flip-card-back">
@@ -78,6 +84,7 @@
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
+      <h2>Default</h2>
       <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
     </div>
     <div class="flip-card-back">
@@ -90,6 +97,7 @@
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
+      <h2>Default</h2>
       <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
     </div>
     <div class="flip-card-back">
@@ -102,6 +110,7 @@
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
+      <h2>Default</h2>
       <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
     </div>
     <div class="flip-card-back">
@@ -114,6 +123,7 @@
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
+      <h2>Default</h2>
       <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
     </div>
     <div class="flip-card-back">
@@ -126,6 +136,7 @@
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
+      <h2>Default</h2>
       <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
     </div>
     <div class="flip-card-back">
@@ -138,6 +149,7 @@
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
+      <h2>Default</h2>
       <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
     </div>
     <div class="flip-card-back">
@@ -150,6 +162,7 @@
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
+      <h2>Default</h2>
       <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
     </div>
     <div class="flip-card-back">
@@ -162,6 +175,7 @@
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
+      <h2>Default</h2>
       <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
     </div>
     <div class="flip-card-back">
@@ -174,6 +188,7 @@
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
+      <h2>Default</h2>
       <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
     </div>
     <div class="flip-card-back">
@@ -186,6 +201,7 @@
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
+      <h2>Default</h2>
       <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
     </div>
     <div class="flip-card-back">
